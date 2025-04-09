@@ -1,0 +1,30 @@
+snake_game/
+├── CMakeLists.txt
+├── config.ini
+├── include/
+│   ├── config.h
+│   ├── game_objects.h
+│   ├── model.h
+│   ├── view.h
+│   ├── console_view.h
+│   ├── sfml_view.h
+│   ├── controller.h
+│   ├── resource_manager.h
+│   └── utils.h
+├── src/
+│   ├── main.cpp
+│   ├── config.cpp
+│   ├── game_objects.cpp
+│   ├── model.cpp
+│   ├── console_view.cpp
+│   ├── sfml_view.cpp
+│   ├── controller.cpp
+│   └── resource_manager.cpp
+└── assets/
+    ├── fonts/
+    │   └── arial.ttf
+    └── textures/
+        ├── snake.png
+        ├── food.png
+        └── background.png
+
